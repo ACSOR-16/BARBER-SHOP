@@ -1,0 +1,63 @@
+.main-contact{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.formulario{
+  margin: 40px 0;
+}
+
+.formulario .form-label, .preferencias{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.formulario .form-input{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+#time-select{
+  margin: 10px;
+}
+
+#div-pref{
+  margin: 10px;
+}
+
+.form-input-send{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: orange;
+  border: none; 
+  border-radius: 5px;
+  transition: 1s ;
+  cursor: pointer;
+}
+
+.form-input-send:hover{
+  background: rgb(210, 116, 2);
+  transform: scale(1.1);
+  transform: rotate(360deg);
+}
+
+table{
+  margin: 40px 40px;
+}
+
+thead{
+  background: gray;
+  color: white;
+  font-weight: bold;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 4px  15px;
+}

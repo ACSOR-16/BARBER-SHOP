@@ -1,0 +1,121 @@
+.imagen-banner{
+  width: 100%;
+}
+
+.introduccion{
+  padding: 3em 0;
+  background: #efefef;
+}
+
+.menu-nav .item{
+  font-weight: bold;
+}
+
+.encabezado-descriptivo {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 0 1em;
+  clear: left;
+  color: rgba(233,0,0,38%);
+  text-shadow: 2px 2px 10px blanchedalmond;
+}
+
+.encabezado-descriptivo::first-letter{
+  font-style: italic;
+}
+
+.encabezado-descriptivo::before{
+  content: "[";
+}
+
+.encabezado-descriptivo::after{
+  content: "]";
+}
+
+
+.imagen-herramientas{
+  width: 100px;
+  float: left;
+  margin: 0 20px 0 20px;
+}
+
+.parrafo {
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+.parrafo-mision{
+  font-style: italic;
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+
+.mision-especifica{
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+.mapa{
+  height: 500px;
+  padding: 3em auto;
+  text-align: center;
+  background: linear-gradient(#fefefe, #888888);
+}
+
+/* DIFERENCIALES */
+
+.caracteristicas{
+  background-color: #888888;
+  padding: 30px;
+  box-shadow: inset 0 0 10px #191818;
+}
+
+.lista-diferenciales{
+  width: 640px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.aspectos{
+  vertical-align: top;
+  width: 40%;
+  margin-right: 15%;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.item-dif:first-child{
+  font-weight: bold;
+}
+
+.item-dif::before{
+  content: "\1F3A9";
+}
+
+.imagen-diferenciales{
+  width: 30%;
+  box-shadow: 5px 5px 15px 10px black;
+}
+
+.imagen-diferenciales:hover{
+  opacity: 60%;
+  transition: 1s;
+}
+
+/* VIDEO PROMOCIONAL */
+
+.video{
+  width: 560px;
+  margin: 1em auto;
+}
+
+@media screen and (max-width: 375px) {
+  
+  
+}

@@ -1,0 +1,98 @@
+.header-products{
+  background-color:#bbbbbb;
+  padding: 20px 0;
+}
+
+.logo-principal{
+  width: 50px;
+  height: 50px;
+}
+
+.barra-nav{
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.menu{
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+.menu .item{
+  display: inline;
+  margin: 0 0 0 15px;  
+}
+
+.nav-a{
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.nav-a:hover{
+  color: #c78c19;
+}
+
+.servicios{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.servicios .item-serv{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.item-serv{
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.item-serv:hover{
+  border-color: #c78c19;
+}
+
+.item-serv:active{
+  border-color: #0e8325;
+}
+
+.item-serv:hover .servicios-encabezado{
+  font-size: 33px;
+}
+
+.servicios .servicios-encabezado{
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.servicio-descripcion{
+ font-size: 18px; 
+}
+
+.servicio-precio{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.footer{
+  text-align: center;
+  background: url(./imagenes/bg.jpg);
+  padding: 40px;
+}
+
+.copyright{
+  color: white;
+  font-size: 12px;
+  margin: 20px;
+}
